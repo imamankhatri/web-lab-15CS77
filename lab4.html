@@ -7,6 +7,8 @@
 	<script type="text/javascript">
 		var v = prompt('Enter value :','');
 		if(!isNaN(v)){
+			//Uncomment the below line for one line reverse
+			//alert('Reverse of' +v+' is '+v.split("").reverse().join(""));	
 			var n,r=0,rem;
 			n = parseInt(v);
 			while(n!=0){
@@ -15,6 +17,7 @@
 				n=parseInt(n/10);
 			}
 			alert('Reverse of '+v+' is '+r);
+			
 		}
 		else{
 			v=v.toUpperCase();
